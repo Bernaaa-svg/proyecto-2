@@ -1,0 +1,164 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna y legible */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Un gris aún más claro */
+    color: #495057; /* Texto ligeramente más claro */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+header {
+    background-color: #e9ecef; /* Gris claro para el encabezado */
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem; /* Título más grande */
+    color: #007bff; /* Azul principal */
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.tagline {
+    color: #6c757d; /* Gris secundario para la descripción */
+    font-style: italic;
+}
+
+main {
+    max-width: 960px; /* Ancho máximo para el contenido principal */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 1rem;
+}
+
+section.product,
+section.materials {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05); /* Sombra más sutil */
+    border: 1px solid #dee2e6; /* Borde ligero para las secciones */
+}
+
+h2 {
+    color: #212529; /* Negro más suave para los subtítulos */
+    border-bottom: 3px solid #007bff; /* Línea más gruesa */
+    padding-bottom: 0.75rem;
+    margin-top: 0; /* Eliminar margen superior innecesario */
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #343a40; /* Otro tono de negro suave */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.product-details {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #28a745; /* Verde para el precio */
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el hover */
+}
+
+a:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 80%; /* Reducir el tamaño máximo de las imágenes */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05); /* Sombra suave para las imágenes */
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Estilos para listas */
+ul,
+ol {
+    padding-left: 1.5rem; /* Reducir la indentación */
+}
+
+li {
+    margin-bottom: 0.75rem;
+    color: #495057;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #343a40; /* Gris oscuro para el pie de página */
+    color: #fff;
+    margin-top: 3rem;
+    border-radius: 8px 8px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    main {
+        padding: 0.5rem;
+    }
+
+    section.product,
+    section.materials {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    img {
+        max-width: 100%; /* Las imágenes ocupan todo el ancho en pantallas pequeñas */
+    }
+
+    ul,
+    ol {
+        padding-left: 1rem;
+    }
+}
